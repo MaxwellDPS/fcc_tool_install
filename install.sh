@@ -16,3 +16,4 @@ sed -i 's|DEFINE."BASE_PATH",".*".;|DEFINE\("BASE_PATH","'"$DIR"'"\);|g' fcc/fun
 
 chown -R $currentuser:$currentuser fcc
 rm fcc/data/*
+
