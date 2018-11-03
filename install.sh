@@ -13,9 +13,7 @@ apt install php*-cli -y
 git clone https://github.com/FCC/mmba_JSON_bulkimporter.git
 
 mv mmba_JSON_bulkimporter fcc
-
 sed -i 's|DEFINE."BASE_PATH",".*".;|DEFINE\("BASE_PATH","'"$DIR"'"\);|g' fcc/functions.php
 
 chown -R $currentuser:$currentuser fcc
-
 rm fcc/data/*
