@@ -1,7 +1,7 @@
 #!/bin/bash
 BASEDIR=$PWD
 DIR=$BASEDIR"/fcc"
-currentuser=$(who | awk '{print $1}')}
+currentuser=$(who | awk '{print $1}')
 
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
