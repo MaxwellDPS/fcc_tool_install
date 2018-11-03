@@ -9,7 +9,6 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 apt install php7.2-cli -y
-
 git clone https://github.com/FCC/mmba_JSON_bulkimporter.git
 
 mv mmba_JSON_bulkimporter fcc
